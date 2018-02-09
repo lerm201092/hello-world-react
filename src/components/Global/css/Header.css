@@ -1,19 +1,17 @@
-.Header {
-  text-align: center;
-  background-color: #222;
-  height: 160px;
-  padding: 20px;
-  color: white;
-}
 
+.Logo {
+  margin-top:-20px;
+  background-color: #222;
+  padding: 10px;
+}
 .Logo img {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+  max-height: 30px;
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+}
+img.LogoNav{
+  height: 33px;
+  margin-top: -5px;
 }
 
 .Menu {
@@ -34,4 +32,8 @@
 
 .Menu li a:hover {
     color: #EEE;
+}
+NavBar{
+  margin-top:0;
+  top:0;
 }
