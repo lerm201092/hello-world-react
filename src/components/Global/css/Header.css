@@ -11,7 +11,7 @@
 }
 img.LogoNav{
   height: 33px;
-  margin-top: -5px;
+  margin-top: -8px;
 }
 
 .Menu {
@@ -26,14 +26,15 @@ img.LogoNav{
 }
 
 .Menu li a {
-    color: #CCC;
-    text-decoration: none;
+  color: #CCC;
+  text-decoration: none;
 }
 
 .Menu li a:hover {
-    color: #EEE;
+  color: #EEE;
 }
-NavBar{
-  margin-top:0;
-  top:0;
+
+.card>img{
+  width:100%;
 }
+
